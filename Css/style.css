@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+/* 
+===============================
+Template Name : Strict - responsive web design
+Author : Mahir Afsar
+Version: 1.1.1
+===============================
+ */
+*{
+    font-family: 'Lato', sans-serif;
+    
+}
+/* ===========================Common CSS start============================== */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+:root{
+    --color1 : #0872b9;
+    --color2 : #f1f1f1;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lato', sans-serif;
+}
+/* ===========================Common CSS end============================== */
+
+
+/* ===========================Navbar CSS start============================== */
+.navbar_part ul li a{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2d3950;
+}
+/* ===========================Navbar CSS end============================== */
+
+
+/* ===========================Banner CSS start============================== */
+.banner_part{
+    background: white;
+}
+.banner_background{
+    background: url(../Images/banner.png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+}
+.background_main h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+    color: white;
+    line-height: 105px;
+}
+.background_main p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+.background_main button{
+    margin: 40px 0 60px 0;
+    padding: 10px 20px;
+    background: none;
+    border: 1px #15a4fa solid;
+    border-radius: 5px;
+}
+.background_main button a{
+    color: white;
+}
+
+/* ===========================Banner CSS end============================== */
+
+
+/* ===========================Info CSS end============================== */
+.info_part{
+    padding: 40px 0;
+    background: #f6f9f9;
+}
+.info_part_main h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #2d3950;
+    padding-bottom: 10px;
+}
+.info_part_main p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #999999;
+}
+/* ===========================Info CSS end============================== */
+
+
+/* ===========================Service CSS Start============================== */
+.service_con{
+    padding: 40px 0;
+}
+.service_img{
+    padding: 25px 0;
+}
+.service_info h4{
+    font-family: 'Lato', sans-serif;
+    font-style: 22px;
+    font-weight: 400;
+    color: #2d3950;
+}
+.service_info p{
+    font-family: 'Lato', sans-serif;
+    font-style: 15px;
+    font-weight: 400;
+    color: #999999;
+}
+/* ===========================Service CSS end============================== */
+
+
+/* ===========================Portfolio CSS start============================== */
+.portfolio_part{
+    background: #f6f9f9;
+    padding: 50px 0;
+    
+}
+.portfolio_part_head h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 41px;
+    font-weight: 400;
+    color: #2d3950;
+}
+.portfolio_part_head p{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #2d3950;
+    color: #999999;
+}
+
+.portfolio_img{
+    position: relative;
+}
+.portfolio_img_overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #2bacf7dc;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+.portfolio_img:hover .portfolio_img_overlay{
+    opacity: 1;
+    transition: 0.4s;
+}
+.overlayIcon1{
+    height: 40px;
+    width: 40px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    transition: 0.3s;
+}
+.overlayIcon1 a{
+    color: white;
+}
+.overlayIcon1:hover{
+    background: #15a4fa;
+    transition: 0.3s;
+}
+.overlayIcon2{
+    height: 40px;
+    width: 40px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    transition: 0.3s;
+}
+.overlayIcon2:hover{
+    background: #15a4fa;
+    transition: 0.3s;
+}
+.overlayIcon2 a{
+    color: white;
+}
+/* ===========================portfolio CSS end============================== */
+/* ===========================form CSS end============================== */
+.form_part{
+    background: url(../Images/Form_background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 50px 0;
+}
+.form_con_head h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+}
+.form_con_head p{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    padding-bottom: 25px;
+    line-height: 0;
+}
+.form_part_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form_part_content form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form_part_content form input{
+    width: 420px;
+    height: 40px;
+    background: none;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+.message_area{
+    width: 420px;
+    height: 80px;
+    background: none;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.form_c_b_part .input_1{
+    background: #9ba1ab;
+    color: white;
+}
+.form_c_b_part .input_2{
+    background: none;
+    color: white;
+    padding: 5px 25px;
+    border: #15a4fa solid 1px;
+    border-radius: 5px;
+    margin-left: 170px;
+
+}
+
+/* ===========================form CSS end============================== */
+
+
+/* ===========================footer CSS end============================== */
+.footer_part{
+    background: #f6f9f9;
+    padding: 0;
+}
+.footer_main p{
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 0;
+}
+.footer_icon1 a{
+    padding: 5px;
+    background: #15a4fa;
+    color: white;
+    margin-right: 5px;
+}
+/* ===========================footer CSS end============================== */
